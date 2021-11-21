@@ -1,16 +1,29 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f5d57f;
+}
+
 h1,
 h2 {
-  font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
 
-p,
-li {
-  font-family: 'Nunito', sans-serif;
-}
 
 img {
   width: 500px;
   height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: antiquewhite;
 }
